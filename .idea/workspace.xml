@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/study/gui/Gui.form" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d7eb90d-98d5-4539-833a-06cd6692a6bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/DataManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/DatabaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/LocationsDataset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/MultiOption.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/RandomTSP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/ResultsManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/TXTFileHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/TspSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/XMLFileHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/AlgorithmTabPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/DataGenerateWindow.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/DataGenerateWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/Gui.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/Gui.java" />
+    </list>
+    <ignored path="TSP.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TSP" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Gui.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/gui/Gui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="116" column="100" selection-start-line="116" selection-start-column="100" selection-end-line="116" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="method#openDataGeneratorWindow#0;class#Gui#0" expanded="false" />
+                <element signature="class#MultiOptionJPanel#0" expanded="false" />
+                <element signature="e#4835#4836#0" expanded="true" />
+                <element signature="e#4886#4887#0" expanded="true" />
+                <element signature="class#SubOptionPanel#0" expanded="false" />
+                <element signature="method#actionPerformed#0;class#6610:6941" expanded="false" />
+                <element signature="method#refreshOption#0;class#SubOptionPanel#0" expanded="false" />
+                <element signature="class#SimpleOptionJPanel#0" expanded="false" />
+                <element signature="e#8638#8639#0" expanded="true" />
+                <element signature="e#8683#8684#0" expanded="true" />
+                <element signature="e#8750#8751#0" expanded="true" />
+                <element signature="e#8808#8809#0" expanded="true" />
+                <element signature="method#SimpleOptionJPanel#0;class#SimpleOptionJPanel#0" expanded="false" />
+                <element signature="class#ManySimpleOptionJPanel#0" expanded="false" />
+                <element signature="method#ManySimpleOptionJPanel#0;class#ManySimpleOptionJPanel#0" expanded="false" />
+                <element signature="e#11081#11082#0" expanded="true" />
+                <element signature="e#11131#11132#0" expanded="true" />
+                <element signature="e#11355#11356#0" expanded="true" />
+                <element signature="e#11411#11412#0" expanded="true" />
+                <element signature="class#ManyMultiOptionJPanel#0" expanded="false" />
+                <element signature="e#13019#13020#0" expanded="true" />
+                <element signature="e#13073#13074#0" expanded="true" />
+                <marker date="1496998937984" expanded="false" signature="3393:3646" placeholder="{...}" />
+                <marker date="1496998937984" expanded="false" signature="3975:4286" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Algorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="method#executeAlgorithm#0;class#Algorithm#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultsManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/ResultsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="180" column="75" selection-start-line="180" selection-start-column="75" selection-end-line="180" selection-end-column="75" />
+              <folding>
+                <element signature="method#ResultsManager#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#ResultsManager#1;class#ResultsManager#0" expanded="false" />
+                <element signature="method#ResultsManager#2;class#ResultsManager#0" expanded="false" />
+                <element signature="method#optimalRouteHistoryChart#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#locationsChart#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#optimalRouteChart#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#getOptimalRouteHistoryChart#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#getOptimalRouteChart#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#createLocationsDataset#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#createHistoryDataset#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#createOptimalRouteDataset#0;class#ResultsManager#0" expanded="false" />
+                <element signature="method#locationsChart#1;class#ResultsManager#0" expanded="false" />
+                <element signature="method#getLocationsChart#1;class#ResultsManager#0" expanded="false" />
+                <element signature="method#createLocationsDataset#1;class#ResultsManager#0" expanded="false" />
+                <element signature="method#main#0;class#ResultsManager#0" expanded="false" />
+                <element signature="class#RMXYLabelGenerator#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultsWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultsWindow.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/gui/ResultsWindow.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TspOption.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/TspOption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gui.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/gui/Gui.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TspSettings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/study/TspSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding>
+                <element signature="method#TspSettings#0;class#TspSettings#0" expanded="false" />
+                <element signature="method#getMatchingOption#0;class#TspSettings#0" expanded="false" />
+                <element signature="method#getMatchingOption#1;class#TspSettings#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="370" column="9" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getSettings#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#getTspSettings#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#setDistanceMatrix#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#setLocations#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#prepareAlgorithm#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#singleIteration#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#getSelectedCrossingMethods#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#getSelectedSubOptions#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#getSelectedMutationMethods#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#randomMutation#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#prepareAlgorithm#1;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#singleIteration#1;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#singleIteration#2;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#runGeneticAlgorithm#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#runGeneticAlgorithm#1;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#showHistory#0;class#GeneticAlgorithm#0" expanded="false" />
+                <element signature="method#Population#0;class#Population#0" expanded="false" />
+                <element signature="method#getBestAdaptedSubject#0;class#Population#0" expanded="false" />
+                <element signature="method#getBestAdaptedSubject#1;class#Population#0" expanded="false" />
+                <element signature="method#shuffle#0;class#Population#0" expanded="false" />
+                <element signature="method#distance#0;class#Population#0" expanded="false" />
+                <element signature="method#distance#1;class#Population#0" expanded="false" />
+                <element signature="method#distance#2;class#Population#0" expanded="false" />
+                <element signature="method#Subject#2;class#Subject#0" expanded="false" />
+                <element signature="method#Subject#3;class#Subject#0" expanded="false" />
+                <element signature="method#Subject#4;class#Subject#0" expanded="false" />
+                <element signature="e#21929#21930#0" expanded="true" />
+                <element signature="e#21961#21962#0" expanded="true" />
+                <element signature="e#22070#22071#0" expanded="true" />
+                <element signature="e#22108#22109#0" expanded="true" />
+                <element signature="e#22252#22253#0" expanded="true" />
+                <element signature="e#22295#22296#0" expanded="true" />
+                <element signature="method#Adaptor#1;class#Adaptor#0" expanded="false" />
+                <element signature="method#setDistanceMatrix#0;class#Adaptor#0" expanded="false" />
+                <element signature="method#adaptation#0;class#Adaptor#0" expanded="false" />
+                <element signature="method#adaptation#1;class#Adaptor#0" expanded="false" />
+                <element signature="method#distance#0;class#Adaptor#0" expanded="false" />
+                <element signature="method#distance#1;class#Adaptor#0" expanded="false" />
+                <element signature="method#distance#2;class#Adaptor#0" expanded="false" />
+                <element signature="class#Crosser#0" expanded="false" />
+                <element signature="method#getOptions#0;class#Crosser#0" expanded="false" />
+                <element signature="method#crossGetBest#0;class#Crosser#0" expanded="false" />
+                <element signature="method#ox#0;class#Crosser#0" expanded="false" />
+                <element signature="method#cx#0;class#Crosser#0" expanded="false" />
+                <element signature="method#cxCrossing#0;class#Crosser#0" expanded="false" />
+                <element signature="class#Mutator#0" expanded="false" />
+                <element signature="method#Mutator#0;class#Mutator#0" expanded="false" />
+                <element signature="method#getOptions#0;class#Mutator#0" expanded="false" />
+                <element signature="e#30445#30511#0" expanded="false" />
+                <element signature="e#30677#30737#0" expanded="false" />
+                <element signature="method#swap#0;class#Mutator#0" expanded="false" />
+                <element signature="method#push#0;class#Mutator#0" expanded="false" />
+                <element signature="method#chooseMethod#0;class#Mutator#0" expanded="false" />
+                <element signature="class#DataLoader#0" expanded="false" />
+                <element signature="method#getData#0;class#DataLoader#0" expanded="false" />
+                <marker date="1497127257862" expanded="false" signature="7154:7402" placeholder="{...}" />
+                <marker date="1497127257862" expanded="false" signature="7467:7585" placeholder="{...}" />
+                <marker date="1497127257862" expanded="false" signature="7673:7908" placeholder="{...}" />
+                <marker date="1497127257862" expanded="false" signature="8025:8350" placeholder="{...}" />
+                <marker date="1497127257862" expanded="false" signature="29558:29718" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlgorithmTab.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2110#2111#0" expanded="true" />
+                <element signature="e#2140#2141#0" expanded="true" />
+                <element signature="e#2654#2655#0" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="fkosecki" />
+        <option value="koseccyXBOX" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/com/study" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/study/Alghoritm.java" />
+        <option value="$PROJECT_DIR$/src/com/study/MultiOption.java" />
+        <option value="$PROJECT_DIR$/src/com/study/Option.java" />
+        <option value="$PROJECT_DIR$/src/com/study/SubOption.java" />
+        <option value="$PROJECT_DIR$/src/ResultsWindow.form" />
+        <option value="$PROJECT_DIR$/src/com/study/RandomTSP.java" />
+        <option value="$PROJECT_DIR$/src/com/study/Location.java" />
+        <option value="$PROJECT_DIR$/src/DataGenerateWindow.form" />
+        <option value="$PROJECT_DIR$/src/com/study/TXTFileHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/study/XMLFileHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/study/DatabaseController.java" />
+        <option value="$PROJECT_DIR$/src/com/study/DataManager.java" />
+        <option value="$PROJECT_DIR$/src/DataGenerateWindow.java" />
+        <option value="$PROJECT_DIR$/src/Gui.form" />
+        <option value="$PROJECT_DIR$/src/Gui.java" />
+        <option value="$PROJECT_DIR$/src/com/study/SimpleOption.java" />
+        <option value="$PROJECT_DIR$/src/com/study/gui/AlgorithmTabPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/study/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/study/LocationsDataset.java" />
+        <option value="$PROJECT_DIR$/src/com/study/gui/ResultsWindow.form" />
+        <option value="$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/study/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/study/gui/Gui.form" />
+        <option value="$PROJECT_DIR$/src/com/study/gui/Gui.java" />
+        <option value="$PROJECT_DIR$/src/com/study/ResultsManager.java" />
+        <option value="$PROJECT_DIR$/src/com/study/TspSettings.java" />
+        <option value="$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java" />
+        <option value="$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ResultsManager.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KursWalutNBP" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Filipek\Documents\IntelliJ\TSP\src\com\study\gui" />
+      <recent name="C:\Users\Filipek\Documents\IntelliJ\TSP\src\com\study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Filipek\Documents\IntelliJ\TSP\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Gui (1)">
+    <configuration default="false" name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Gui" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TSP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Gui (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.study.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.study.gui.Gui" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TSP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.study.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TSP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GeneticAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.study.GeneticAlgorithm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TSP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ResultsManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.study.ResultsManager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TSP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TSP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Gui" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Gui (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GeneticAlgorithm" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ResultsManager" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Gui (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ResultsManager" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GeneticAlgorithm" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Gui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d7eb90d-98d5-4539-833a-06cd6692a6bd" name="Default" comment="" />
+      <created>1482617157874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482617157874</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First, somehow working version. Many things to be added and reworked.">
+      <created>1497126878669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497126878669</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First, somehow working version. Many things to be added and reworked.">
+      <created>1497127300129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1497127300129</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19242902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16398244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.34114203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="641" y="108" width="482" height="533" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41009465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First, somehow working version. Many things to be added and reworked." />
+    <option name="LAST_COMMIT_MESSAGE" value="First, somehow working version. Many things to be added and reworked." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="89" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#getSettings#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#setDistanceMatrix#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#setLocations#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#prepareAlgorithm#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#singleIteration#1;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#runGeneticAlgorithm#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#showHistory#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="class#Population#0" expanded="false" />
+            <element signature="method#Population#0;class#Population#0" expanded="false" />
+            <element signature="method#setAdaptation#0;class#Population#0" expanded="false" />
+            <element signature="method#getBestAdaptedSubject#0;class#Population#0" expanded="false" />
+            <element signature="method#getBestAdaptedSubject#1;class#Population#0" expanded="false" />
+            <element signature="method#shuffle#0;class#Population#0" expanded="false" />
+            <element signature="method#distance#0;class#Population#0" expanded="false" />
+            <element signature="method#distance#1;class#Population#0" expanded="false" />
+            <element signature="method#distance#2;class#Population#0" expanded="false" />
+            <element signature="method#Subject#0;class#Subject#0" expanded="false" />
+            <element signature="method#Subject#1;class#Subject#0" expanded="false" />
+            <element signature="method#Subject#2;class#Subject#0" expanded="false" />
+            <element signature="method#Subject#3;class#Subject#0" expanded="false" />
+            <element signature="method#Subject#4;class#Subject#0" expanded="false" />
+            <element signature="class#Adaptor#0" expanded="false" />
+            <element signature="method#Adaptor#1;class#Adaptor#0" expanded="false" />
+            <element signature="method#setDistanceMatrix#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#setAdaptation#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#adaptation#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#adaptation#1;class#Adaptor#0" expanded="false" />
+            <element signature="method#distance#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#distance#1;class#Adaptor#0" expanded="false" />
+            <element signature="method#distance#2;class#Adaptor#0" expanded="false" />
+            <element signature="class#Crosser#0" expanded="false" />
+            <element signature="method#getOptions#0;class#Crosser#0" expanded="false" />
+            <element signature="method#crossGetBest#0;class#Crosser#0" expanded="false" />
+            <element signature="method#ox#0;class#Crosser#0" expanded="false" />
+            <element signature="class#Mutator#0" expanded="false" />
+            <element signature="method#Mutator#0;class#Mutator#0" expanded="false" />
+            <element signature="method#getOptions#0;class#Mutator#0" expanded="false" />
+            <element signature="method#swap#0;class#Mutator#0" expanded="false" />
+            <element signature="method#push#0;class#Mutator#0" expanded="false" />
+            <element signature="method#invert#0;class#Mutator#0" expanded="false" />
+            <element signature="method#getData#0;class#DataLoader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Schema.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/Schema.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="387" column="0" selection-start-line="387" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qatar194.txt" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qatar194.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1775" column="0" selection-start-line="1775" selection-start-column="0" selection-end-line="1775" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/sun/launcher/LauncherHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="536" column="0" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1360" column="0" selection-start-line="1360" selection-start-column="0" selection-end-line="1360" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="473" column="0" selection-start-line="472" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/sun/misc/CompoundEnumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/sun/misc/URLClassPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="282" column="0" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prevGui.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/lib/jfreechart-1.0.19.jar!/org/jfree/chart/ChartPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ResultsWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/ResultsWindow.form" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoadDatasetDialog.java" />
+    <entry file="file://$PROJECT_DIR$/src/LoadDatasetDialog.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/study/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/TXTFileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/DataGenerateWindow.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/XMLFileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="method#loadDatasetFromXML#0;class#XMLFileHandler#0" expanded="false" />
+            <element signature="method#saveDatsetToXMLFile#0;class#XMLFileHandler#0" expanded="false" />
+            <element signature="method#saveDatsetToXMLFile#1;class#XMLFileHandler#0" expanded="false" />
+            <element signature="method#addDatasetElement#0;class#XMLFileHandler#0" expanded="false" />
+            <element signature="method#addLocationNode#0;class#XMLFileHandler#0" expanded="false" />
+            <element signature="method#addLocationNode#1;class#XMLFileHandler#0" expanded="false" />
+            <element signature="method#addLocationElement#0;class#XMLFileHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/DatabaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#DatabaseController#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#query#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getDatasetTableContent#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getLocationsTableContent#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getDatasetTableContent#1;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getLocationsTableContent#1;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getJoinedDatasetAndLocations#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getDatasetID#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#getLocations#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#insertLocationsRow#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#insertDatasetRow#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#updateDatasetTableLocationsCount#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#removeDataset#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#clearDatasetTable#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#clearLocationsTable#0;class#DatabaseController#0" expanded="false" />
+            <element signature="method#clearLocationsTable#1;class#DatabaseController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/DataGenerateWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1312">
+          <caret line="219" column="65" selection-start-line="219" selection-start-column="65" selection-end-line="219" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="e#2662#2663#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="method#setDataTable#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#clearTable#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#addData#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#addData#1;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#addRandomData#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#removeSelectedRow#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#updateIndexes#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#updateLocationsList#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#getLocations#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#saveDataToDatabase#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#loadDataFromDatabase#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#loadDataFromDatabase#1;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#removeDatasetFromDatabase#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#changeDatabase#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="method#createUIComponents#0;class#DataGenerateWindow#0" expanded="false" />
+            <element signature="class#15667:15855" expanded="false" />
+            <element signature="class#DataChart#0" expanded="false" />
+            <element signature="class#DGWXYLabelGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/javax/swing/JScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="321" column="11" selection-start-line="321" selection-start-column="11" selection-end-line="321" selection-end-column="11" />
+          <folding>
+            <element signature="e#10955#10956#0" expanded="true" />
+            <element signature="e#11043#11044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1427" column="19" selection-start-line="1427" selection-start-column="19" selection-end-line="1427" selection-end-column="19" />
+          <folding>
+            <element signature="e#49122#49123#0" expanded="true" />
+            <element signature="e#49160#49161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/MultiOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="method#enableSubOption#0;class#MultiOption#0" expanded="false" />
+            <element signature="method#disableSubOption#0;class#MultiOption#0" expanded="false" />
+            <element signature="method#getEnabledOptions#0;class#MultiOption#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/SubOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#135#136#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/SimpleOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="method#hasValue#0;class#SimpleOption#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/RandomTSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="method#setLocationsDataset#0;class#DataManager#0" expanded="false" />
+            <element signature="method#getDataFromTXT#0;class#DataManager#0" expanded="false" />
+            <element signature="method#fillDatabaseWithDirTxtFiles#0;class#DataManager#0" expanded="false" />
+            <element signature="method#addDatasetFromTxtFileToDatabase#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToTxtFile#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToTxtFile#1;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToFile#0;class#DataManager#0" expanded="false" />
+            <element signature="method#loadDatasetFromTxtFile#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToFile#1;class#DataManager#0" expanded="false" />
+            <element signature="method#main#0;class#DataManager#0" expanded="false" />
+            <element signature="method#loadDatasetFromDatabase#0;class#DataManager#0" expanded="false" />
+            <element signature="method#finder#0;class#TXTfilter#0" expanded="false" />
+            <element signature="method#getBasicInfo#0;class#TXTfilter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/LocationsDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="92" column="47" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+          <folding>
+            <element signature="method#LocationsDataset#1;class#LocationsDataset#0" expanded="false" />
+            <element signature="method#LocationsDataset#2;class#LocationsDataset#0" expanded="false" />
+            <element signature="method#printUrself#0;class#LocationsDataset#0" expanded="false" />
+            <element signature="method#locationsToArray#0;class#LocationsDataset#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/AlgorithmTabPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="method#AlgorithmTabPanel#0;class#AlgorithmTabPanel#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/TspOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/ResultsWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/ResultsWindow.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/ResultsWindow.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/Gui.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/ResultsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="180" column="75" selection-start-line="180" selection-start-column="75" selection-end-line="180" selection-end-column="75" />
+          <folding>
+            <element signature="method#ResultsManager#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#ResultsManager#1;class#ResultsManager#0" expanded="false" />
+            <element signature="method#ResultsManager#2;class#ResultsManager#0" expanded="false" />
+            <element signature="method#optimalRouteHistoryChart#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#locationsChart#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#optimalRouteChart#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#getOptimalRouteHistoryChart#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#getOptimalRouteChart#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#createLocationsDataset#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#createHistoryDataset#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#createOptimalRouteDataset#0;class#ResultsManager#0" expanded="false" />
+            <element signature="method#locationsChart#1;class#ResultsManager#0" expanded="false" />
+            <element signature="method#getLocationsChart#1;class#ResultsManager#0" expanded="false" />
+            <element signature="method#createLocationsDataset#1;class#ResultsManager#0" expanded="false" />
+            <element signature="method#main#0;class#ResultsManager#0" expanded="false" />
+            <element signature="class#RMXYLabelGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="116" column="100" selection-start-line="116" selection-start-column="100" selection-end-line="116" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="method#openDataGeneratorWindow#0;class#Gui#0" expanded="false" />
+            <element signature="class#MultiOptionJPanel#0" expanded="false" />
+            <element signature="e#4835#4836#0" expanded="true" />
+            <element signature="e#4886#4887#0" expanded="true" />
+            <element signature="class#SubOptionPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#6610:6941" expanded="false" />
+            <element signature="method#refreshOption#0;class#SubOptionPanel#0" expanded="false" />
+            <element signature="class#SimpleOptionJPanel#0" expanded="false" />
+            <element signature="e#8638#8639#0" expanded="true" />
+            <element signature="e#8683#8684#0" expanded="true" />
+            <element signature="e#8750#8751#0" expanded="true" />
+            <element signature="e#8808#8809#0" expanded="true" />
+            <element signature="method#SimpleOptionJPanel#0;class#SimpleOptionJPanel#0" expanded="false" />
+            <element signature="class#ManySimpleOptionJPanel#0" expanded="false" />
+            <element signature="method#ManySimpleOptionJPanel#0;class#ManySimpleOptionJPanel#0" expanded="false" />
+            <element signature="e#11081#11082#0" expanded="true" />
+            <element signature="e#11131#11132#0" expanded="true" />
+            <element signature="e#11355#11356#0" expanded="true" />
+            <element signature="e#11411#11412#0" expanded="true" />
+            <element signature="class#ManyMultiOptionJPanel#0" expanded="false" />
+            <element signature="e#13019#13020#0" expanded="true" />
+            <element signature="e#13073#13074#0" expanded="true" />
+            <marker date="1496998937984" expanded="false" signature="3393:3646" placeholder="{...}" />
+            <marker date="1496998937984" expanded="false" signature="3975:4286" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="method#executeAlgorithm#0;class#Algorithm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="370" column="9" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getSettings#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#getTspSettings#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#setDistanceMatrix#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#setLocations#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#prepareAlgorithm#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#singleIteration#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#getSelectedCrossingMethods#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#getSelectedSubOptions#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#getSelectedMutationMethods#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#randomMutation#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#prepareAlgorithm#1;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#singleIteration#1;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#singleIteration#2;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#runGeneticAlgorithm#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#runGeneticAlgorithm#1;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#showHistory#0;class#GeneticAlgorithm#0" expanded="false" />
+            <element signature="method#Population#0;class#Population#0" expanded="false" />
+            <element signature="method#getBestAdaptedSubject#0;class#Population#0" expanded="false" />
+            <element signature="method#getBestAdaptedSubject#1;class#Population#0" expanded="false" />
+            <element signature="method#shuffle#0;class#Population#0" expanded="false" />
+            <element signature="method#distance#0;class#Population#0" expanded="false" />
+            <element signature="method#distance#1;class#Population#0" expanded="false" />
+            <element signature="method#distance#2;class#Population#0" expanded="false" />
+            <element signature="method#Subject#2;class#Subject#0" expanded="false" />
+            <element signature="method#Subject#3;class#Subject#0" expanded="false" />
+            <element signature="method#Subject#4;class#Subject#0" expanded="false" />
+            <element signature="e#21929#21930#0" expanded="true" />
+            <element signature="e#21961#21962#0" expanded="true" />
+            <element signature="e#22070#22071#0" expanded="true" />
+            <element signature="e#22108#22109#0" expanded="true" />
+            <element signature="e#22252#22253#0" expanded="true" />
+            <element signature="e#22295#22296#0" expanded="true" />
+            <element signature="method#Adaptor#1;class#Adaptor#0" expanded="false" />
+            <element signature="method#setDistanceMatrix#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#adaptation#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#adaptation#1;class#Adaptor#0" expanded="false" />
+            <element signature="method#distance#0;class#Adaptor#0" expanded="false" />
+            <element signature="method#distance#1;class#Adaptor#0" expanded="false" />
+            <element signature="method#distance#2;class#Adaptor#0" expanded="false" />
+            <element signature="class#Crosser#0" expanded="false" />
+            <element signature="method#getOptions#0;class#Crosser#0" expanded="false" />
+            <element signature="method#crossGetBest#0;class#Crosser#0" expanded="false" />
+            <element signature="method#ox#0;class#Crosser#0" expanded="false" />
+            <element signature="method#cx#0;class#Crosser#0" expanded="false" />
+            <element signature="method#cxCrossing#0;class#Crosser#0" expanded="false" />
+            <element signature="class#Mutator#0" expanded="false" />
+            <element signature="method#Mutator#0;class#Mutator#0" expanded="false" />
+            <element signature="method#getOptions#0;class#Mutator#0" expanded="false" />
+            <element signature="e#30445#30511#0" expanded="false" />
+            <element signature="e#30677#30737#0" expanded="false" />
+            <element signature="method#swap#0;class#Mutator#0" expanded="false" />
+            <element signature="method#push#0;class#Mutator#0" expanded="false" />
+            <element signature="method#chooseMethod#0;class#Mutator#0" expanded="false" />
+            <element signature="class#DataLoader#0" expanded="false" />
+            <element signature="method#getData#0;class#DataLoader#0" expanded="false" />
+            <marker date="1497127257862" expanded="false" signature="7154:7402" placeholder="{...}" />
+            <marker date="1497127257862" expanded="false" signature="7467:7585" placeholder="{...}" />
+            <marker date="1497127257862" expanded="false" signature="7673:7908" placeholder="{...}" />
+            <marker date="1497127257862" expanded="false" signature="8025:8350" placeholder="{...}" />
+            <marker date="1497127257862" expanded="false" signature="29558:29718" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/TspSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="method#TspSettings#0;class#TspSettings#0" expanded="false" />
+            <element signature="method#getMatchingOption#0;class#TspSettings#0" expanded="false" />
+            <element signature="method#getMatchingOption#1;class#TspSettings#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TSP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
