@@ -15,28 +15,4 @@ public class Main {
         frame.pack();
         frame.setVisible(true);
     }
-
-
-
-
-
-    public static void getMethods(String figureName){
-        try {
-            Class cl = Class.forName(figureName);
-            Method[] methods = cl.getDeclaredMethods();
-
-            System.out.println("Dostepne metody: ");
-
-            for(Method m : methods) {
-                if (m.getParameterCount() != 0) {
-                    System.out.println("NAZWA: " + m.getName() + " ZWRACA: " + m.getReturnType().getSimpleName() + " PARAMTR: " + m.getParameters()[0].getType().getSimpleName());
-                    if (m.getReturnType() == Subject[].class && m.getParameters()[0].getType() == Subject.class && m.getParameters()[1].getType() == Subject.class) {
-                        System.out.println("KURWAAAAAAAAA");
-                    }
-                }
-            }
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
 }
