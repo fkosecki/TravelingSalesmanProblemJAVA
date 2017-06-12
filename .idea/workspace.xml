@@ -4,23 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/study/gui/Gui.form" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7eb90d-98d5-4539-833a-06cd6692a6bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/DataManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/DatabaseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/Location.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/LocationsDataset.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/MultiOption.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/RandomTSP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/ResultsManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/TXTFileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/TspSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/XMLFileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/AlgorithmTabPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/DataGenerateWindow.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/DataGenerateWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/Gui.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/gui/Gui.java" />
+    <list default="true" id="5d7eb90d-98d5-4539-833a-06cd6692a6bd" name="Default" comment="First, somehow working version. Many things to be added and reworked.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/DataManager.java" afterPath="$PROJECT_DIR$/src/com/study/DataManager.java" />
     </list>
     <ignored path="TSP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +20,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\Filipek\Documents\IntelliJ\TSP" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -91,6 +77,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/study/DataManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="method#setLocationsDataset#0;class#DataManager#0" expanded="false" />
+                <element signature="method#getDataFromTXT#0;class#DataManager#0" expanded="false" />
+                <element signature="method#fillDatabaseWithDirTxtFiles#0;class#DataManager#0" expanded="false" />
+                <element signature="method#addDatasetFromTxtFileToDatabase#0;class#DataManager#0" expanded="false" />
+                <element signature="method#saveDatasetToTxtFile#0;class#DataManager#0" expanded="false" />
+                <element signature="method#saveDatasetToTxtFile#1;class#DataManager#0" expanded="false" />
+                <element signature="method#saveDatasetToFile#0;class#DataManager#0" expanded="false" />
+                <element signature="method#loadDatasetFromTxtFile#0;class#DataManager#0" expanded="false" />
+                <element signature="method#saveDatasetToFile#1;class#DataManager#0" expanded="false" />
+                <element signature="method#loadDatasetFromDatabase#0;class#DataManager#0" expanded="false" />
+                <element signature="class#TXTfilter#0" expanded="false" />
+                <element signature="method#finder#0;class#TXTfilter#0" expanded="false" />
+                <element signature="method#getBasicInfo#0;class#TXTfilter#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ResultsManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/study/ResultsManager.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,37 +128,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultsWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java">
+      <file leaf-file-name="TXTFileHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/TXTFileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultsWindow.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/study/gui/ResultsWindow.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TspOption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/study/TspOption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#834#835#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TspSettings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TspSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/study/TspSettings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -170,6 +155,16 @@
                 <element signature="method#getMatchingOption#0;class#TspSettings#0" expanded="false" />
                 <element signature="method#getMatchingOption#1;class#TspSettings#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/study/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -279,7 +274,7 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/com/study" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="GradleLocalSettings">
@@ -301,13 +296,11 @@
         <option value="$PROJECT_DIR$/src/com/study/TXTFileHandler.java" />
         <option value="$PROJECT_DIR$/src/com/study/XMLFileHandler.java" />
         <option value="$PROJECT_DIR$/src/com/study/DatabaseController.java" />
-        <option value="$PROJECT_DIR$/src/com/study/DataManager.java" />
         <option value="$PROJECT_DIR$/src/DataGenerateWindow.java" />
         <option value="$PROJECT_DIR$/src/Gui.form" />
         <option value="$PROJECT_DIR$/src/Gui.java" />
         <option value="$PROJECT_DIR$/src/com/study/SimpleOption.java" />
         <option value="$PROJECT_DIR$/src/com/study/gui/AlgorithmTabPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/study/Main.java" />
         <option value="$PROJECT_DIR$/src/com/study/LocationsDataset.java" />
         <option value="$PROJECT_DIR$/src/com/study/gui/ResultsWindow.form" />
         <option value="$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java" />
@@ -318,6 +311,8 @@
         <option value="$PROJECT_DIR$/src/com/study/TspSettings.java" />
         <option value="$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java" />
         <option value="$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/study/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/study/DataManager.java" />
       </list>
     </option>
   </component>
@@ -451,6 +446,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="DataManager.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -463,7 +480,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../KursWalutNBP" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -831,12 +848,19 @@
       <option name="project" value="LOCAL" />
       <updated>1497127300129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First, somehow working version. Many things to be added and reworked.">
+      <created>1497215344532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1497215344532</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -876,6 +900,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="First, somehow working version. Many things to be added and reworked." />
     <option name="LAST_COMMIT_MESSAGE" value="First, somehow working version. Many things to be added and reworked." />
   </component>
@@ -1056,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/study/TXTFileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1170,16 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/study/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1231,28 +1238,6 @@
         <state relative-caret-position="125">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/study/DataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="method#setLocationsDataset#0;class#DataManager#0" expanded="false" />
-            <element signature="method#getDataFromTXT#0;class#DataManager#0" expanded="false" />
-            <element signature="method#fillDatabaseWithDirTxtFiles#0;class#DataManager#0" expanded="false" />
-            <element signature="method#addDatasetFromTxtFileToDatabase#0;class#DataManager#0" expanded="false" />
-            <element signature="method#saveDatasetToTxtFile#0;class#DataManager#0" expanded="false" />
-            <element signature="method#saveDatasetToTxtFile#1;class#DataManager#0" expanded="false" />
-            <element signature="method#saveDatasetToFile#0;class#DataManager#0" expanded="false" />
-            <element signature="method#loadDatasetFromTxtFile#0;class#DataManager#0" expanded="false" />
-            <element signature="method#saveDatasetToFile#1;class#DataManager#0" expanded="false" />
-            <element signature="method#main#0;class#DataManager#0" expanded="false" />
-            <element signature="method#loadDatasetFromDatabase#0;class#DataManager#0" expanded="false" />
-            <element signature="method#finder#0;class#TXTfilter#0" expanded="false" />
-            <element signature="method#getBasicInfo#0;class#TXTfilter#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,6 +1474,44 @@
             <element signature="method#TspSettings#0;class#TspSettings#0" expanded="false" />
             <element signature="method#getMatchingOption#0;class#TspSettings#0" expanded="false" />
             <element signature="method#getMatchingOption#1;class#TspSettings#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/TXTFileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/study/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="method#setLocationsDataset#0;class#DataManager#0" expanded="false" />
+            <element signature="method#getDataFromTXT#0;class#DataManager#0" expanded="false" />
+            <element signature="method#fillDatabaseWithDirTxtFiles#0;class#DataManager#0" expanded="false" />
+            <element signature="method#addDatasetFromTxtFileToDatabase#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToTxtFile#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToTxtFile#1;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToFile#0;class#DataManager#0" expanded="false" />
+            <element signature="method#loadDatasetFromTxtFile#0;class#DataManager#0" expanded="false" />
+            <element signature="method#saveDatasetToFile#1;class#DataManager#0" expanded="false" />
+            <element signature="method#loadDatasetFromDatabase#0;class#DataManager#0" expanded="false" />
+            <element signature="class#TXTfilter#0" expanded="false" />
+            <element signature="method#finder#0;class#TXTfilter#0" expanded="false" />
+            <element signature="method#getBasicInfo#0;class#TXTfilter#0" expanded="false" />
           </folding>
         </state>
       </provider>
