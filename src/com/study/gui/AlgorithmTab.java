@@ -58,6 +58,7 @@ public class AlgorithmTab extends JScrollPane implements Runnable{
 
     private void runAlgorithm(){
         this.algorithm = new GeneticAlgorithm();
+        //this.algorithm = new HeldKarpAlgorithm();
         this.retrieveSettingsFromPanels();
         Thread t = new Thread(this.algorithmProgressBar);
         t.start();

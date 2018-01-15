@@ -112,9 +112,10 @@ public class Gui implements ActionListener {
     }
 
     private void createUIComponents() {
-//        // TODO: place custom component creation code here
+//        // TODO: dodaj nowy Tab. Sprawdzaj zawartość package algorithm i dodaj tab na kazdy algorytm
         this.algorithmTabPanel1 = new AlgorithmTabPanel();
         this.algorithmTabPanel1.add(new AlgorithmTab(GeneticAlgorithm.getSettings(), new JPanel()));
+        this.algorithmTabPanel1.add(new AlgorithmTab(HeldKarpAlgorithm.getSettings(), new JPanel()));
         this.dataDisplayPanel = new JPanel();
     }
 

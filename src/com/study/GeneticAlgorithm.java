@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 public class GeneticAlgorithm extends Algorithm{
 
     public final static String NAME = "Genetic Algorithm";
+    public final static String DESCRIPTION = "Genetic Algorithm\nNear optimal solutions. Relatively fast for bigger input.";
     private Population population;
     private List<Subject> history = new ArrayList<>();
     private double[][] locations;
@@ -27,7 +28,7 @@ public class GeneticAlgorithm extends Algorithm{
     @Override
     public void executeAlgorithm(TspSettings settings){
         this.settings = settings;
-        this.resultsManager = new ResultsManager(settings.getLocationsDataset(),this);
+        this.resultsManager = new ResultsManager(settings.getLocationsDataset());
         SimpleOption populationSize = (SimpleOption) settings.getMatchingOption("Population Size");
         SimpleOption iterations = (SimpleOption) settings.getMatchingOption("Number of Iterations");
         SimpleOption eliteCount = (SimpleOption) settings.getMatchingOption("Elite Count");
@@ -79,6 +80,11 @@ public class GeneticAlgorithm extends Algorithm{
         return settings;
     }
 
+    public List<Subject> getOptimalRouteHistory(){
+        return this.history;
+    }
+
+    //GENETIC ALGORITHM RELATED METHODS FROM HERE ONWARDS
     private void setDistanceMatrix(double[][] locations){
         this.distanceMatrix = new double[locations.length][locations.length];
         for(int i = 0; i < locations.length; i++){
@@ -311,6 +317,9 @@ public class GeneticAlgorithm extends Algorithm{
                 if (crossingPropability >= Math.random() * 100) {
                     Subject temp = new Subject();
                     Subject[] temps = this.randomCrossing(bestAdaptedSubject, population.get(worseIndex), crossMethods, crossOdds);
+                    for(Subject sub : temps){
+                        sub.setAdaptation(this.adaptor);
+                    }
                     if (temps[0].getAdaptation() >= temps[1].getAdaptation()) {
                         temp = temps[1];
                     } else {
@@ -376,15 +385,13 @@ public class GeneticAlgorithm extends Algorithm{
         double[] temp = new double[this.history.size()];
         int ind = 0;
         for(Subject x : this.history){
+            this.resultsManager.addToHistory(x.getPath(),x.getAdaptation());
             temp[ind] = x.getAdaptation();
             ind++;
         }
         this.resultsManager.openResultsWindow();
     }
 
-    public List<Subject> getOptimalRouteHistory(){
-        return this.history;
-    }
 
     public void showHistory(){
         for(Subject x: history){

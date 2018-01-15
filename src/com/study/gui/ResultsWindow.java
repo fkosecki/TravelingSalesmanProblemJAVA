@@ -22,7 +22,7 @@ public class ResultsWindow {
     public void setUrself(){
         this.optimalRouteJPanel.add(resultsManager.optimalRouteChart().getContentPane());
         this.optimalRoutesHistory.add(resultsManager.optimalRouteHistoryChart().getContentPane());
-        this.optimalRouteLengthLabel.setText(this.optimalRouteLengthLabel.getText()+" "+resultsManager.getOptimalRouteLength());
+        this.optimalRouteLengthLabel.setText(this.optimalRouteLengthLabel.getText()+" "+resultsManager.getOptimalRouteCost());
         this.runTimeLabel.setText(this.runTimeLabel.getText()+" "+resultsManager.getRunTime()+"ms");
     }
 

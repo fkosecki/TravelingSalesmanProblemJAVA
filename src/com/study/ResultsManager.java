@@ -27,12 +27,35 @@ import org.jfree.util.ShapeUtilities;
 import javax.swing.*;
 
 public class ResultsManager{
-    double[][] locations;
-    GeneticAlgorithm genetico;
-    private double optimalRouteLength;
+    private double[][] locations;
+    //private GeneticAlgorithm genetico; //WSZYSTKO Z TYM ZWIAZANE WYJEBAC!
+    //Algorithm algorithm;
+    private double optimalRouteCost;
     private int[] optimalRoute;
-    private double[] historyOfOptimal;
+    private ArrayList<int[]> optimalRoutesHistory = new ArrayList<>();
+    private ArrayList<Double> optimalRoutesCostHistory = new ArrayList<>();
     private long runTime;
+
+    public void addToHistory(int[] path, double cost){
+        this.optimalRoutesHistory.add(path);
+        this.optimalRoutesCostHistory.add(cost);
+    }
+
+    public void setOptimalRoutesHistory(ArrayList<int[]> pathHistory){
+        this.optimalRoutesHistory = pathHistory;
+    }
+
+    public ArrayList<Double> getOptimalRoutesHistoryCost(){
+        return this.optimalRoutesCostHistory;
+    }
+
+    public void setOptimalRoutesHistoryCost(ArrayList<Double> pathHistoryCost){
+        this.optimalRoutesCostHistory = pathHistoryCost;
+    }
+
+    public ArrayList<int[]> getOptimalRoutesHistory(){
+        return this.optimalRoutesHistory;
+    }
 
     public long getRunTime() {
         return runTime;
@@ -42,20 +65,12 @@ public class ResultsManager{
         this.runTime = runTime;
     }
 
-    public double getOptimalRouteLength() {
-        return optimalRouteLength;
+    public double getOptimalRouteCost() {
+        return optimalRouteCost;
     }
 
-    public void setOptimalRouteLength(double optimalRouteLength) {
-        this.optimalRouteLength = optimalRouteLength;
-    }
-
-    public double[] getHistoryOfOptimal() {
-        return historyOfOptimal;
-    }
-
-    public void setHistoryOfOptimal(double[] historyOfOptimal) {
-        this.historyOfOptimal = historyOfOptimal;
+    public void setOptimalRouteLength(double optimalRouteCost) {
+        this.optimalRouteCost = optimalRouteCost;
     }
 
     public int[] getOptimalRoute() {
@@ -66,13 +81,7 @@ public class ResultsManager{
         this.optimalRoute = optimalRoute;
     }
 
-    public ResultsManager(double[][] locations, GeneticAlgorithm genetico){
-        this.locations = locations;
-        this.genetico = genetico;
-    }
-
-    public ResultsManager(LocationsDataset locationsDataset, GeneticAlgorithm genetico){
-        this.genetico = genetico;
+    public ResultsManager(LocationsDataset locationsDataset){
         double[][] temp = new double[locationsDataset.getLocationsData().size()][2];
         int index = 0;
         for(Location loc : locationsDataset.getLocationsData()){
@@ -81,6 +90,7 @@ public class ResultsManager{
             index++;
         }
         this.locations = temp;
+
     }
 
     public ResultsManager(){
@@ -88,7 +98,8 @@ public class ResultsManager{
 
     public ApplicationFrame optimalRouteHistoryChart() {
         ApplicationFrame applicationFrame = new ApplicationFrame("Optimal Route History Chart");
-        JFreeChart xylineChart = getOptimalRouteHistoryChart(genetico);
+        ////////JFreeChart xylineChart = getOptimalRouteHistoryChart(genetico);
+        JFreeChart xylineChart = getOptimalRouteHistoryChart();
         //JFreeChart xylineChart = getLocationsChart(locations);
         //JFreeChart xylineChart = getOptimalRouteChart(genetico);
         ChartPanel chartPanel = new ChartPanel( xylineChart );
@@ -112,7 +123,8 @@ public class ResultsManager{
         ApplicationFrame applicationFrame = new ApplicationFrame("Optimal Route Chart");
         //JFreeChart xylineChart = getOptimalRouteHistoryChart(genetico);
         //JFreeChart xylineChart = getLocationsChart(locations);
-        JFreeChart xylineChart = getOptimalRouteChart(genetico);
+        //////////JFreeChart xylineChart = getOptimalRouteChart(genetico);
+        JFreeChart xylineChart = getOptimalRouteChart();
         ChartPanel chartPanel = new ChartPanel( xylineChart );
         chartPanel.setPreferredSize( new java.awt.Dimension( 560 , 400 ) );
         applicationFrame.setContentPane( chartPanel );
@@ -132,29 +144,6 @@ public class ResultsManager{
         return xyPointChart;
     }
 
-    private JFreeChart getOptimalRouteHistoryChart(GeneticAlgorithm algorithm){
-        JFreeChart xylineChart = ChartFactory.createScatterPlot("Optimal Route History","Iterations","Distance",createHistoryDataset(algorithm));
-        XYPlot plot = xylineChart.getXYPlot( );
-
-        XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer(true,false);
-        renderer.setSeriesPaint( 0 , Color.BLUE );
-        renderer.setSeriesStroke( 0 , new BasicStroke(1f) );
-        plot.setRenderer( renderer );
-        return xylineChart;
-    }
-
-    private JFreeChart getOptimalRouteChart(GeneticAlgorithm algorithm){
-
-        JFreeChart xylineChart = ChartFactory.createScatterPlot("Optimal Route","Cordinate X","Cordinate Y",createOptimalRouteDataset(algorithm));
-        XYPlot plot = xylineChart.getXYPlot();
-
-        XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer(true,true);
-        renderer.setSeriesPaint( 0 , Color.BLACK );
-        renderer.setSeriesStroke( 0 , new BasicStroke(0.5f) );
-        plot.setRenderer( renderer );
-        return xylineChart;
-    }
-
     private XYDataset createLocationsDataset(double[][] locations){
         XYSeries locationsSeries = new XYSeries("Locations");
         XYSeriesCollection dataset = new XYSeriesCollection();
@@ -164,29 +153,6 @@ public class ResultsManager{
         dataset.addSeries(locationsSeries);
 
         return dataset;
-    }
-
-    private XYDataset createHistoryDataset(GeneticAlgorithm algorithm){
-        XYSeries optimalRoutesHistorySeries = new XYSeries("");
-        XYSeriesCollection dataset = new XYSeriesCollection();
-        int index = 0;
-        for(Subject x : algorithm.getOptimalRouteHistory()){
-            optimalRoutesHistorySeries.add(index, x.getAdaptation());
-            index++;
-        }
-        dataset.addSeries(optimalRoutesHistorySeries);
-        return dataset;
-    }
-
-    private XYDataset createOptimalRouteDataset(GeneticAlgorithm algorithm){
-        XYSeries dataseries = new XYSeries("Locations",false);
-        XYSeriesCollection dataset = new XYSeriesCollection();
-        for(int x : algorithm.getOptimalRouteHistory().get(algorithm.getOptimalRouteHistory().size() - 1).getPath()){
-            dataseries.add(algorithm.getLocations()[x][0],algorithm.getLocations()[x][1]);
-        }
-        dataset.addSeries(dataseries);
-        return dataset;
-
     }
 
     public static ApplicationFrame locationsChart(LocationsDataset ld) {
@@ -230,15 +196,59 @@ public class ResultsManager{
         frame.setVisible(true);
     }
 
+    private JFreeChart getOptimalRouteHistoryChart(){
+        JFreeChart xylineChart = ChartFactory.createScatterPlot("Optimal Route History","Iterations","Distance",createHistoryDataset());
+        XYPlot plot = xylineChart.getXYPlot( );
+
+        XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer(true,false);
+        renderer.setSeriesPaint( 0 , Color.BLUE );
+        renderer.setSeriesStroke( 0 , new BasicStroke(1f) );
+        plot.setRenderer( renderer );
+        return xylineChart;
+    }
+
+    private JFreeChart getOptimalRouteChart(){
+
+        JFreeChart xylineChart = ChartFactory.createScatterPlot("Optimal Route","Cordinate X","Cordinate Y",createOptimalRouteDataset());
+        XYPlot plot = xylineChart.getXYPlot();
+
+        XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer(true,true);
+        renderer.setSeriesPaint( 0 , Color.BLACK );
+        renderer.setSeriesStroke( 0 , new BasicStroke(0.5f) );
+        plot.setRenderer( renderer );
+        return xylineChart;
+    }
+
+    private XYDataset createHistoryDataset(){
+        XYSeries optimalRoutesHistorySeries = new XYSeries("");
+        XYSeriesCollection dataset = new XYSeriesCollection();
+        for(int i = 0; i < this.getOptimalRoutesHistoryCost().size(); i++){
+            optimalRoutesHistorySeries.add(i,this.getOptimalRoutesHistoryCost().get(i));
+        }
+        dataset.addSeries(optimalRoutesHistorySeries);
+        return dataset;
+    }
+
+    private XYDataset createOptimalRouteDataset(){
+        XYSeries dataseries = new XYSeries("Locations",false);
+        XYSeriesCollection dataset = new XYSeriesCollection();
+        for(int x : this.getOptimalRoute()){
+            dataseries.add(this.locations[x][0],this.locations[x][1]);
+        }
+        dataset.addSeries(dataseries);
+        return dataset;
+
+    }
+
     public static void main( String[ ] args ) {
-        GeneticAlgorithm genetico = new GeneticAlgorithm();
-        genetico.runGeneticAlgorithm("qatar194.txt", 200, 20000, 4, 0, 100,"","");
-        ResultsManager chart = new ResultsManager(genetico.getLocations(),genetico);
-//        ResultsManager chart = new ResultsManager("Browser Usage Statistics",
-//                "Which Browser are you using?",genetico.getLocations(),genetico);
-        chart.locationsChart().pack( );
-        RefineryUtilities.centerFrameOnScreen( chart.locationsChart() );
-        chart.locationsChart().setVisible( true );
+//        GeneticAlgorithm genetico = new GeneticAlgorithm();
+//        genetico.runGeneticAlgorithm("qatar194.txt", 200, 20000, 4, 0, 100,"","");
+//        ResultsManager chart = new ResultsManager(genetico.getLocations(),genetico);
+////        ResultsManager chart = new ResultsManager("Browser Usage Statistics",
+////                "Which Browser are you using?",genetico.getLocations(),genetico);
+//        chart.locationsChart().pack( );
+//        RefineryUtilities.centerFrameOnScreen( chart.locationsChart() );
+//        chart.locationsChart().setVisible( true );
     }
 }
 

@@ -1,7 +1,6 @@
 package com.study;
 
-import com.study.gui.*;
-
+import com.study.gui.Gui;
 import java.lang.reflect.Method;
 import javax.swing.*;
 
