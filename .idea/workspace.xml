@@ -4,26 +4,22 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/study/gui/Gui.form" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7eb90d-98d5-4539-833a-06cd6692a6bd" name="Default" comment="First, somehow working version. Many things to be added and reworked.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/Adaptor.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/Adaptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/Crosser.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/Crosser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/DataLoader.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/DataLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/DataManager.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/DataManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/GeneticAlgorithm.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/GeneticAlgorithm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/Main.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/Mutator.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/Mutator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/Population.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/Population.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/SimpleOption.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/SimpleOption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/Subject.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/Subject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/TXTfilter$1.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/TXTfilter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/TXTfilter.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/TXTfilter.class" />
+    <list default="true" id="5d7eb90d-98d5-4539-833a-06cd6692a6bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/study/HeldKarpAlgorithm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/RMXYLabelGenerator.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/RMXYLabelGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/ResultsManager.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/ResultsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/AlgorithmProgressBar.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/AlgorithmProgressBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/AlgorithmTab.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/AlgorithmTab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/Gui.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/Gui.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ManyMultiOptionJPanel.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ManyMultiOptionJPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ManySimpleOptionJPanel.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ManySimpleOptionJPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/MultiOptionJPanel.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/MultiOptionJPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ResultsPanel.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ResultsPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ResultsWindow.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/ResultsWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/SimpleOptionJPanel.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/SimpleOptionJPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/SubOptionPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/SubOptionPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TSP/com/study/gui/SubOptionPanel.class" afterPath="$PROJECT_DIR$/out/production/TSP/com/study/gui/SubOptionPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java" afterPath="$PROJECT_DIR$/src/com/study/GeneticAlgorithm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/Main.java" afterPath="$PROJECT_DIR$/src/com/study/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/ResultsManager.java" afterPath="$PROJECT_DIR$/src/com/study/ResultsManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java" afterPath="$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/gui/Gui.java" afterPath="$PROJECT_DIR$/src/com/study/gui/Gui.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java" afterPath="$PROJECT_DIR$/src/com/study/gui/ResultsWindow.java" />
     </list>
     <ignored path="TSP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,7 +194,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="347">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
               <folding>
                 <element signature="method#AlgorithmTab#0;class#AlgorithmTab#0" expanded="false" />
                 <element signature="method#retrieveSettingsFromPanels#0;class#AlgorithmTab#0" expanded="false" />
@@ -827,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497215344532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second, somehow working version. Many things to be added and reworked.">
+      <created>1516043118669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516043118669</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -835,7 +838,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -849,7 +852,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.34114203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="641" y="108" width="482" height="533" />
@@ -885,7 +888,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="First, somehow working version. Many things to be added and reworked." />
-    <option name="LAST_COMMIT_MESSAGE" value="First, somehow working version. Many things to be added and reworked." />
+    <MESSAGE value="Second, somehow working version. Many things to be added and reworked." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second, somehow working version. Many things to be added and reworked." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,7 +1386,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/study/gui/AlgorithmTab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
-          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
           <folding>
             <element signature="method#AlgorithmTab#0;class#AlgorithmTab#0" expanded="false" />
             <element signature="method#retrieveSettingsFromPanels#0;class#AlgorithmTab#0" expanded="false" />
