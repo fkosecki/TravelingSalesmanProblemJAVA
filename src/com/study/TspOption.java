@@ -25,7 +25,7 @@ import java.util.List;
 //    }
 //}
 
-abstract class TspOption{
+abstract public class TspOption{
     private String optionName;
 
     public void setOptionName(String optionName) {

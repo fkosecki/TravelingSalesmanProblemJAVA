@@ -1,10 +1,12 @@
 package com.study.gui;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import java.awt.*;
 import java.util.ArrayList;
 
-public class AlgorithmTabPanel extends JTabbedPane {
+public class AlgorithmTabPanel extends JTabbedPane{
     private ArrayList<AlgorithmTab> algTabs;
 
     public AlgorithmTabPanel(){

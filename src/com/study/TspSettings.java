@@ -7,8 +7,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class TspSettings{
     private List<SimpleOption> simpleOptions;
     private List<MultiOption> multiOptions;
-    private String algorithmName;
+    private String algorithmName = "";
     private LocationsDataset locationsDataset;
+    private String description = "";
     public Integer currentIteration;
 
     public TspSettings(String algorithmName){
@@ -82,4 +83,12 @@ public class TspSettings{
     }
 
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        String text = description.replaceAll("\n","<br/>");
+        this.description = text;
+    }
 }

@@ -1,4 +1,6 @@
-package com.study;
+package com.study.tspAlgorithms;
+
+import com.study.*;
 
 import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
@@ -25,7 +27,6 @@ public class GeneticAlgorithm extends Algorithm{
     private TspSettings settings;
     private ResultsManager resultsManager;
 
-    @Override
     public void executeAlgorithm(TspSettings settings){
         this.settings = settings;
         this.resultsManager = new ResultsManager(settings.getLocationsDataset());
@@ -56,7 +57,7 @@ public class GeneticAlgorithm extends Algorithm{
                 (Double)mutationPropability.getValue());
     }
 
-    public static TspSettings getSettings(){
+    public  TspSettings getSettings(){
         TspSettings settings = new TspSettings(GeneticAlgorithm.NAME);
         settings.addSimpleOption(new SimpleOption("Population Size"));
         settings.addSimpleOption(new SimpleOption("Number of Iterations"));
@@ -65,6 +66,7 @@ public class GeneticAlgorithm extends Algorithm{
         settings.addSimpleOption(new SimpleOption("Mutation Propability"));
         settings.addMultiOption((MultiOption)Mutator.getOptions());
         settings.addMultiOption((MultiOption)Crosser.getOptions());
+        settings.setDescription(this.DESCRIPTION);
         return settings;
     }
 

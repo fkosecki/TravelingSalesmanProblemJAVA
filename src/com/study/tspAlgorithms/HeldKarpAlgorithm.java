@@ -1,10 +1,12 @@
-package com.study;
+package com.study.tspAlgorithms;
+
+import com.study.LocationsDataset;
+import com.study.ResultsManager;
+import com.study.TspSettings;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
 
 
 /** The Held Karp algorithm:
@@ -248,9 +250,8 @@ import java.util.Scanner;
 
 public class HeldKarpAlgorithm extends Algorithm{
 
-    /* ----------------------------- GLOBAL VARIABLES ------------------------------ */
     public static final String NAME = "Held-Karp Algorithm";
-    public static final String DESCRIPTION = " Held-Karp Algorithm\n Giving more than 12 cities as input may result in outrageous execution time.";
+    public static final String DESCRIPTION = " Held-Karp Algorithm\nOptimal solution. Giving more than 12 cities as input\n may result in outrageous execution time or just simply crash.";
     private double[][] distances;
     private double optimalDistance = Double.MAX_VALUE;
     private String optimalPath = "";
@@ -277,7 +278,6 @@ public class HeldKarpAlgorithm extends Algorithm{
         return this.distances;
     }
 
-    @Override
     public void executeAlgorithm(TspSettings settings){
 
         this.settings = settings;
@@ -378,8 +378,9 @@ public class HeldKarpAlgorithm extends Algorithm{
         }
     }
 
-    public static TspSettings getSettings(){
+    public  TspSettings getSettings(){
         TspSettings settings = new TspSettings(HeldKarpAlgorithm.NAME);
+        settings.setDescription(this.DESCRIPTION);
         return settings;
     }
 }

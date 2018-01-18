@@ -1,4 +1,7 @@
-package com.study;
+package com.study.tspAlgorithms;
+
+import com.study.TspOption;
+import com.study.TspSettings;
 
 import java.util.List;
 
@@ -19,9 +22,9 @@ public abstract class Algorithm {
         return System.currentTimeMillis();
     }
 
-    public void executeAlgorithm(TspSettings settings){
+    public abstract TspSettings getSettings();
 
-    }
+    public abstract void executeAlgorithm(TspSettings settings);
 }
 
 
