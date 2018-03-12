@@ -1,15 +1,20 @@
 package com.study.gui;
 
 import com.study.*;
+import com.study.tspAlgorithms.Algorithm;
+import com.study.tspAlgorithms.GeneticAlgorithm;
+import com.study.tspAlgorithms.HeldKarpAlgorithm;
 
 import javax.swing.*;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,8 +74,8 @@ public class Gui implements ActionListener {
             this.refreshLocationsChart();
         }
         if (e.getSource() == executeButton) {
-            this.algorithmTabPanel1.getAlgTabs().get(0).getTspSettings().setLocationsDataset(DataManager.getLocationsDataset());
-            Thread t = new Thread(this.algorithmTabPanel1.getAlgTabs().get(0));
+            this.algorithmTabPanel1.getAlgTabs().get(this.algorithmTabPanel1.getSelectedIndex()).getTspSettings().setLocationsDataset(DataManager.getLocationsDataset());
+            Thread t = new Thread(this.algorithmTabPanel1.getAlgTabs().get(this.algorithmTabPanel1.getSelectedIndex()));
             t.start();
         }
         if (e.getSource() == saveSettingButton) {
@@ -82,10 +87,6 @@ public class Gui implements ActionListener {
             GeneticAlgorithm kl = new GeneticAlgorithm();
             this.algorithmTabPanel1.getAlgTabs().get(0).getTspSettings().setLocationsDataset(DataManager.getLocationsDataset());
             kl.executeAlgorithm(this.algorithmTabPanel1.getAlgTabs().get(0).getTspSettings());
-        }
-
-        if(e.getSource() == this.algorithmTabPanel1){
-            System.out.println("AKCJA");
         }
     }
 
@@ -111,14 +112,29 @@ public class Gui implements ActionListener {
         }
     }
 
-    private void createUIComponents() {
-//        // TODO: place custom component creation code here
-        this.algorithmTabPanel1 = new AlgorithmTabPanel();
-        this.algorithmTabPanel1.add(new AlgorithmTab(GeneticAlgorithm.getSettings(), new JPanel()));
-        this.dataDisplayPanel = new JPanel();
+    private void addAlgorithmTabs(){
+        try {
+            List<Class<?>> classes = ClassFinder.find("com.study.tspAlgorithms");
+            for(Class x : classes){
+                if(x.getSuperclass().getSimpleName().equals("Algorithm")){
+                    Method getSettings = x.getMethod("getSettings");
+                    this.algorithmTabPanel1.add(new AlgorithmTab(x.getCanonicalName(), (TspSettings)getSettings.invoke(x.newInstance()), new JPanel()));
+                }
+            }
+
+        } catch (InstantiationException | InvocationTargetException | IllegalAccessException | NoSuchMethodException e) {
+            e.printStackTrace();
+        }
     }
 
+    private void createUIComponents() {
+//        // TODO: dodaj nowy Tab. Sprawdzaj zawartość package algorithm i dodaj tab na kazdy algorytm
+        this.algorithmTabPanel1 = new AlgorithmTabPanel();
+        this.addAlgorithmTabs();
+        this.dataDisplayPanel = new JPanel();
+    }
 }
+
      class MultiOptionJPanel extends JPanel{
         private JLabel label;
         private JPanel optionsPanel;
@@ -364,7 +380,46 @@ public class Gui implements ActionListener {
          }
      }
 
+class ClassFinder {
 
-class ResultsPanel extends JPanel{
+    private static final char PKG_SEPARATOR = '.';
+
+    private static final char DIR_SEPARATOR = '/';
+
+    private static final String CLASS_FILE_SUFFIX = ".class";
+
+    private static final String BAD_PACKAGE_ERROR = "Unable to get resources from path '%s'. Are you sure the package '%s' exists?";
+
+    public static List<Class<?>> find(String scannedPackage) {
+        String scannedPath = scannedPackage.replace(PKG_SEPARATOR, DIR_SEPARATOR);
+        URL scannedUrl = Thread.currentThread().getContextClassLoader().getResource(scannedPath);
+        if (scannedUrl == null) {
+            throw new IllegalArgumentException(String.format(BAD_PACKAGE_ERROR, scannedPath, scannedPackage));
+        }
+        File scannedDir = new File(scannedUrl.getFile());
+        List<Class<?>> classes = new ArrayList<Class<?>>();
+        for (File file : scannedDir.listFiles()) {
+            classes.addAll(find(file, scannedPackage));
+        }
+        return classes;
+    }
+
+    private static List<Class<?>> find(File file, String scannedPackage) {
+        List<Class<?>> classes = new ArrayList<Class<?>>();
+        String resource = scannedPackage + PKG_SEPARATOR + file.getName();
+        if (file.isDirectory()) {
+            for (File child : file.listFiles()) {
+                classes.addAll(find(child, resource));
+            }
+        } else if (resource.endsWith(CLASS_FILE_SUFFIX)) {
+            int endIndex = resource.length() - CLASS_FILE_SUFFIX.length();
+            String className = resource.substring(0, endIndex);
+            try {
+                classes.add(Class.forName(className));
+            } catch (ClassNotFoundException ignore) {
+            }
+        }
+        return classes;
+    }
 
 }

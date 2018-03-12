@@ -1,11 +1,11 @@
 package com.study.gui;
 
 import com.study.*;
+import com.study.tspAlgorithms.Algorithm;
+import com.study.tspAlgorithms.GeneticAlgorithm;
 
-import javax.security.auth.*;
 import javax.swing.*;
 import java.awt.*;
-import java.lang.reflect.Method;
 
 public class AlgorithmTab extends JScrollPane implements Runnable{
     private String algorithmName;
@@ -41,6 +41,49 @@ public class AlgorithmTab extends JScrollPane implements Runnable{
         this.setName(this.algorithmName);
       }
 
+    public AlgorithmTab(String tspAlgorithmName, TspSettings tspSettings, JPanel innerPanel){
+        super(innerPanel);
+        this.tspSettings = tspSettings;
+        this.algorithmName = tspSettings.getAlgorithmName();
+        this.innerPanel = new JPanel();
+        this.manySimpleOptionJPanel = new ManySimpleOptionJPanel(this.tspSettings.getSimpleOptions());
+        this.manyMultiOptionJPanel = new ManyMultiOptionJPanel(this.tspSettings.getMultiOptions());
+        this.algorithmProgressBar = new AlgorithmProgressBar(this.tspSettings);
+        innerPanel.setLayout(new BorderLayout());
+        String labelText = String.format("<html><div WIDTH=%d>%s</div><html>", 350, tspSettings.getDescription());
+        innerPanel.add(new JLabel(labelText, SwingConstants.CENTER),BorderLayout.NORTH);
+        JPanel tempPanel = new JPanel();
+        tempPanel.setLayout(new BorderLayout());
+        innerPanel.add(tempPanel,BorderLayout.CENTER);
+        tempPanel.add(this.manySimpleOptionJPanel,BorderLayout.NORTH);
+        tempPanel.add(this.manyMultiOptionJPanel,BorderLayout.CENTER);
+        tempPanel.add(this.algorithmProgressBar,BorderLayout.SOUTH);
+        this.setName(this.algorithmName);
+
+        try {
+            Class cl = Class.forName(tspAlgorithmName);
+            this.algorithm = (Algorithm)cl.newInstance();
+        } catch (ClassNotFoundException | IllegalAccessException | InstantiationException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public AlgorithmTab(Algorithm algorithm, TspSettings tspSettings, JPanel innerPanel){
+        super(innerPanel);
+        this.tspSettings = tspSettings;
+        this.algorithmName = tspSettings.getAlgorithmName();
+        this.innerPanel = new JPanel();
+        this.manySimpleOptionJPanel = new ManySimpleOptionJPanel(this.tspSettings.getSimpleOptions());
+        this.manyMultiOptionJPanel = new ManyMultiOptionJPanel(this.tspSettings.getMultiOptions());
+        this.algorithmProgressBar = new AlgorithmProgressBar(this.tspSettings);
+        innerPanel.setLayout(new BorderLayout());
+        innerPanel.add(this.manySimpleOptionJPanel,BorderLayout.NORTH);
+        innerPanel.add(this.manyMultiOptionJPanel,BorderLayout.CENTER);
+        innerPanel.add(this.algorithmProgressBar,BorderLayout.SOUTH);
+        this.setName(this.algorithmName);
+        this.algorithm = algorithm;
+    }
+
     public void retrieveSettingsFromPanels(){
       for(SimpleOptionJPanel simpleOptionJPanel : this.manySimpleOptionJPanel.getSimpleOptionJPanelsList()){
           simpleOptionJPanel.refreshOption();
@@ -57,11 +100,14 @@ public class AlgorithmTab extends JScrollPane implements Runnable{
     }
 
     private void runAlgorithm(){
-        this.algorithm = new GeneticAlgorithm();
         this.retrieveSettingsFromPanels();
         Thread t = new Thread(this.algorithmProgressBar);
         t.start();
-        this.algorithm.executeAlgorithm(this.tspSettings);
+        try {
+            this.algorithm.executeAlgorithm(this.tspSettings);
+        } catch (NullPointerException e){
+            e.printStackTrace();
+        }
     }
 
     public TspSettings getTspSettings(){

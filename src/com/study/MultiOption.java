@@ -6,11 +6,11 @@ import java.util.List;
 public class MultiOption extends TspOption{
     private List<SubOption> subOptions = new ArrayList<>();
 
-    MultiOption(String optionName){
+    public MultiOption(String optionName){
         this.setOptionName(optionName);
     }
 
-    MultiOption(String optionName, List<SubOption> subOptions){
+    public MultiOption(String optionName, List<SubOption> subOptions){
         this.setOptionName(optionName);
         this.subOptions = subOptions;
     }

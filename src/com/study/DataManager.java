@@ -208,38 +208,6 @@ public class DataManager {
         }
 }
 
-    public static void main(String[] args) {
-//        String filePath = "C:\\Users\\Filipek\\Downloads\\java tsp\\qatar194.txt";
-//        DataManager mng = new DataManager();
-//        List<Double> tempList = mng.getDataFromTXT(filePath);
-//        int i = 1;
-//        for(Double x : tempList){
-//            System.out.println(i+". "+x+" "+mng.getDataCount());
-//            i++;
-//        }
-//        TXTfilter filter = new TXTfilter("src\\datasets");
-//        for(String[] x : filter.getTxtFilesInfo()){
-//            for(String s : x){
-//                System.out.print(s+" ");
-//            }
-//            System.out.println();
-//        }
-//        for(File x : filter.getDirTxtFiles()){
-//            String[] binfo = filter.getBasicInfo(x);
-//            List<Double> tempList2 = mng.getDataFromTXT(x.getAbsolutePath());
-//            int j = 1;
-//            for(Double loc : tempList2){
-//                System.out.println(j+". "+loc+" "+mng.getDataCount());
-//                j++;
-//            }
-//        }
-//    }
-        String dirPath = "C:\\Users\\Filipek\\Documents\\IntelliJ\\TSP\\src\\datasets";
-        String databaseConnectionURL = "jdbc:sqlserver://localhost;database=TSPLocations;integratedSecurity=true;";
-        DataManager dm = new DataManager();
-        //dm.fillDatabaseWithDirTxtFiles(dirPath,databaseConnectionURL);
-    }
-
     public static LocationsDataset loadDatasetFromDatabase() {
         DatabaseController dbcon = new DatabaseController(DatabaseController.getDatabaseConnectionURL());
         LocationsDataset ld = new LocationsDataset();

@@ -3,15 +3,15 @@ package com.study;
 public class SubOption extends SimpleOption{
     private boolean enabled = false;
 
-    SubOption(String optionName){
+    public SubOption(String optionName){
         super(optionName);
     }
 
-    SubOption(String optionName, double value){
+    public SubOption(String optionName, double value){
         super(optionName, value);
     }
 
-    SubOption(String optionName, String value){
+    public SubOption(String optionName, String value){
         super(optionName, value);
     }
 
