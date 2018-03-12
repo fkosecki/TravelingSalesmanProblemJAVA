@@ -2,10 +2,10 @@
 A tool for solving TSP problem.
 
 Right now some things are implented, GUI looks bad, many needs to be changed and even more needs to be added, but as of now you can:
-- solve TSP problem using genetic algorithm(more info in README file)
-- easily add mutation and crossing methods to genetic algorithm (more info in README file)
+- solve TSP problem using genetic algorithm
+- easily add mutation and crossing methods to genetic algorithm 
 - solve TSP problem using Help-Karp algorithm (optimal solution, solves problems for up to 12 locations)
-- freely load/save locations datasets from files (TXT and XML format) and database (SQL, more info in README)
+- freely load/save locations datasets from files (TXT and XML format) and database (SQL)
 
 Even though GUI shows option for saving/loading options, it doesn't work. I'm sorry.
 
